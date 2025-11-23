@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 40;
+    padding: 40;
     background-color: #fff5e9;
     display: flex;
     justify-content: center;
@@ -8,9 +8,9 @@ body {
   }
   
   .app {
-    width: 360px;
+    width: 600px;
     max-width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .header-video {
@@ -47,19 +47,19 @@ body {
 
   .cloud {
     position: absolute;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: bold;
     color: #6b4a2a;   /* 深一点的棕色，跟插画比较配 */
   }
   
   .cloud-left {
-    top: 130px;      
-    left: 60px;     
+    top: 230px;      
+    left: 110px;     
   }
   
   .cloud-right {
-    top: 130px;
-    right: 30px;
+    top: 230px;
+    right: 70px;
   }
 
   .table-area {
