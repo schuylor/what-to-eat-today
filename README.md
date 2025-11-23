@@ -1,4 +1,4 @@
-# 🍽️ What Should We Eat Today? （Chinese Version)
+# What Should We Eat Today? （Chinese Version)
 
 A tiny, cozy web app I built as a gift — for people who can never decide what to eat.
 
