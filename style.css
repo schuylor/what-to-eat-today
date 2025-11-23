@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e9;
+    display: flex;
+    justify-content: center;
+    font-family: "PingFang SC", sans-serif;
+  }
+  
+  .app {
+    width: 360px;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  .header-video {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 0 #e2b58c;
+  }
+  
+  .header-video video {
+    width: 100%;
+    display: block;
+  }
+  
+  .bubble {
+    position: absolute;
+    background: #fff7cc;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 3px solid #d8c189;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .monkey-bubble {
+    left: 14px;
+    top: 12px;
+  }
+  
+  .sheep-bubble {
+    right: 14px;
+    top: 12px;
+  }
+
+  .cloud {
+    position: absolute;
+    font-size: 23px;
+    font-weight: bold;
+    color: #6b4a2a;   /* 深一点的棕色，跟插画比较配 */
+  }
+  
+  .cloud-left {
+    top: 130px;      
+    left: 60px;     
+  }
+  
+  .cloud-right {
+    top: 130px;
+    right: 30px;
+  }
+
+  .table-area {
+    margin-top: 4px;
+    padding: 36px 0 48px;
+    border-radius: 18px;
+    background-image: url("images/tablecloth.png");
+    background-size: 200px 200px;
+    text-align: center;
+    box-shadow: 0 6px 0 #e2b58c;
+  }
+  
+  .plate {
+    position: relative;
+    width: 260px;
+    margin: auto;
+    animation: float 2s ease-in-out infinite alternate;
+  }
+  
+  .plate-img {
+    width: 100%;
+    display: block;
+  }
+  
+  @keyframes float {
+    from { transform: translateY(0); }
+    to   { transform: translateY(-6px); }
+  }
+  
+  .dish {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+  }
+  
+  .dish-emoji {
+    font-size: 40px;
+    margin-bottom: 4px;
+  }
+  
+  .dish-name {
+    font-size: 20px;
+    color: #7a4a2a;
+    font-weight: bold;
+  }
+  
+  .btn-main {
+    margin-top: 24px;
+    padding: 10px 30px;
+    background: #ffb6c1;
+    border-radius: 999px;
+    border: 3px solid #333;
+    box-shadow: 0 4px 0 #333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

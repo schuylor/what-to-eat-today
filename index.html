@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>今天吃什么？</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <audio id="bgm" src="audio/background.m4a" loop></audio>
+
+  <div class="app">
+
+    <div class="header-video">
+      <video autoplay muted loop playsinline>
+        <source src="images/monkeysheep.mp4" type="video/mp4">
+      </video>
+
+      <div class="bubble monkey-bubble">土豆餐厅</div>
+      <div class="bubble sheep-bubble">今天吃什么？</div>
+
+      <div class="cloud cloud-left">好饿呀…</div>
+      <div class="cloud cloud-right">快点按钮！</div>
+
+    </div>
+
+    <div class="table-area">
+      <div class="plate">
+        <img src="images/plate.png" class="plate-img">
+
+        <div class="dish">
+          <div id="dish-emoji" class="dish-emoji">🍽️</div>
+          <div id="dish-name" class="dish-name">点按钮</div>
+        </div>
+      </div>
+
+      <button id="random-btn" class="btn-main">随机一个</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
